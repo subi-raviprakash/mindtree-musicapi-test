@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.mindtree.subi.musictest.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 6.01 sec <<< FAILURE!
+And Verified Response time is within "1000" milliseconds          Time elapsed: 0.008 sec  <<< ERROR!
+java.lang.NoSuchMethodError: org.hamcrest.Matcher.describeMismatch(Ljava/lang/Object;Lorg/hamcrest/Description;)V
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:16)
+	at com.mindtree.subi.musictest.stepdef.MusicTrackStepDef.validateResponseTime(MusicTrackStepDef.java:48)
+	at ?.And Verified Response time is within "1000" milliseconds(features\MusicTrack.feature:8)
+
+| 1000 |      Time elapsed: 0.008 sec  <<< ERROR!
+java.lang.NoSuchMethodError: org.hamcrest.Matcher.describeMismatch(Ljava/lang/Object;Lorg/hamcrest/Description;)V
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:16)
+	at com.mindtree.subi.musictest.stepdef.MusicTrackStepDef.validateResponseTime(MusicTrackStepDef.java:48)
+	at ?.And Verified Response time is within "1000" milliseconds(features\MusicTrack.feature:8)
+
