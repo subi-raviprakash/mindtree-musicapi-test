@@ -4,7 +4,7 @@ import com.mindtree.subi.musictest.util.PropertyUtil;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
 
-public class BaseStepDef {
+public abstract class BaseStepDef {
 
     protected String endpointURL;
 
